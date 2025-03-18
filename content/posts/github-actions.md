@@ -1,14 +1,8 @@
 ---
 date: '2025-03-18T12:00:13+05:45'
 draft: false
-title: 'Github Actions'
+title: 'GitHub Actions'
 ---
-
-+++
-title = 'Github Actions'
-date = 2023-11-27T21:18:40+05:45
-draft = false
-+++
 
 ### Setup runner in the server
 

@@ -20,7 +20,7 @@ sudo nano ~/.ssh/config
 
 ```bash
 Host acme-server
-    HostName 34.231.213.345
+    HostName 34.235.233.345
     User pratik
     IdentityFile ~/.ssh/id_rsa
 ```

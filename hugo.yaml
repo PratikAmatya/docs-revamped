@@ -18,8 +18,8 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
+  title: "Hi, I am Pratik \U0001F44B"
+  description: "I am a web application developer proficient in front-end and back-end technologies such as Vue.js, React.js, Node.js, Express.js, and MySQL. I have a keen interest in backend technologies, and I am currently expanding my horizons towards DevOps."
   keywords: [Blog, Portfolio, PaperMod]
   author: Pratik
   # author: ["Me", "You"] # multiple authors
@@ -29,16 +29,16 @@ params:
   disableThemeToggle: false
 
   ShowReadingTime: true
-  ShowShareButtons: true
+  ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
-  ShowWordCount: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: false
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
-  comments: false
+  comments: true
   hidemeta: false
   hideSummary: true
   showtoc: false
@@ -61,48 +61,49 @@ params:
   # profile-mode
   profileMode:
     enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
+    title: "Hi, I am Pratik \U0001F44B"
+    subtitle: "I am a web application developer proficient in front-end and back-end technologies such as Vue.js, React.js, Node.js, Express.js, and MySQL. I have a keen interest in backend technologies, and I am currently expanding my horizons towards DevOps."
     imageWidth: 120
     imageHeight: 120
     imageTitle: my image
     buttons:
       - name: Posts
         url: posts
-      - name: Tags
-        url: tags
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Title: "Hi, I am Pratik \U0001F44B"
+    Content: I am a web application developer proficient in front-end and back-end technologies such as Vue.js, React.js, Node.js, Express.js, and MySQL. I have a keen interest in backend technologies, and I am currently expanding my horizons towards DevOps.
 
   socialIcons:
-    - name: x
-      url: "https://x.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
+    - name: email
+      url: "mailto:pratikamatya10@gmail.com"
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/PratikAmatya"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/pratikamatya/"
+    - name: discord
+      url: "https://discord.com/users/857988248823791618"
+    - name: CV
+      url: "https://drive.google.com/file/d/1HX8XyTbrgb3tTY6CkTh9lTEOFsZBYbMG/view?usp=sharing"
 
-  analytics:
-    google:
-      SiteVerificationTag: "XYZabc"
-    bing:
-      SiteVerificationTag: "XYZabc"
-    yandex:
-      SiteVerificationTag: "XYZabc"
+  # analytics:
+  #   google:
+  #     SiteVerificationTag: "XYZabc"
+  #   bing:
+  #     SiteVerificationTag: "XYZabc"
+  #   yandex:
+  #     SiteVerificationTag: "XYZabc"
 
   cover:
     hidden: true # hide everywhere but not in structured data
     hiddenInList: true # hide on list pages and home
     hiddenInSingle: true # hide on single page
 
-  editPost:
-    URL: "https://github.com/<path_to_repo>/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
+  # editPost:
+  #   URL: "https://github.com/<path_to_repo>/content"
+  #   Text: "Suggest Changes" # edit text
+  #   appendFilePath: true # to append file path to Edit link
 
   # for search
   # https://fusejs.io/api/options.html
@@ -116,19 +117,19 @@ params:
     limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
     keys: ["title", "permalink", "summary", "content"]
 menu:
-  main:
-    - identifier: categories
-      name: categories
-      url: /categories/
-      weight: 10
-    - identifier: tags
-      name: tags
-      url: /tags/
-      weight: 20
-    - identifier: example
-      name: example.org
-      url: https://example.org
-      weight: 30
+  # main:
+  #   - identifier: categories
+  #     name: categories
+  #     url: /categories/
+  #     weight: 10
+  #   - identifier: tags
+  #     name: tags
+  #     url: /tags/
+  #     weight: 20
+  #   - identifier: example
+  #     name: example.org
+  #     url: https://example.org
+  #     weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:

@@ -1,7 +1,7 @@
 ---
-date: '2025-03-18T12:01:06+05:45'
+date: "2025-03-18T12:01:06+05:45"
 draft: false
-title: 'Regex Cheat Sheet'
+title: "Regex Cheat Sheet"
 ---
 
 #### _Regex_ is used for pattern matching or string matching

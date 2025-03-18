@@ -1,7 +1,7 @@
 ---
-date: '2025-03-18T12:00:30+05:45'
+date: "2025-03-18T12:00:30+05:45"
 draft: false
-title: 'Lemp Stack'
+title: "Lemp Stack"
 ---
 
 LEMP is an open-source web application stack used to develop web applications.
@@ -52,6 +52,9 @@ sudo apt-get install nginx
 _Verify Installation_
 
 > Access your server's IP in a browser (http://your-server-ip) to confirm Nginx is working.
+> It should look something like this:
+
+![NGINX setup](/lemp-stack-1.png)
 
 ### Install MySQL Server
 
@@ -92,8 +95,9 @@ sudo apt-get install phpmyadmin
 ```
 
 1. Do not select any in the first selection for server as we have already installed Nginx
-2. In the second option, SELECT yes
    ![Configuration of PHPMyAdmin](/lemp-stack-2.png)
+2. In the second option, SELECT yes
+   ![Configuration of PHPMyAdmin](/lemp-stack-3.png)
 3. You will be asked to set password for the database
    ![Setting password for PHPMyAdmin](/lemp-stack-3.png)
 4. You will be asked to confirm the password
